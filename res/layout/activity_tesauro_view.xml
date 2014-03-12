@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout 
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+       <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout 
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="10dp" >
+                  <!-- Content here -->
+                     <TextView
+				        android:id="@+id/txtNombre"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text=""
+				        android:focusable="false"
+				        android:layout_marginBottom="10dp"
+				        android:textSize="20sp"
+				         />
+				    
+				    <TextView
+				        android:id="@+id/txtContenido"
+				        android:layout_width="wrap_content"
+				        android:layout_height="wrap_content"
+				        android:text=""
+				        android:focusable="false"
+				        android:textSize="18sp"
+				         />
+	
+				                  
+            </LinearLayout>
+      </ScrollView>
+ </LinearLayout>
